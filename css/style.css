@@ -1,0 +1,122 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+html{
+   font-size: 10px;
+}
+
+body{
+   font-size: 1.7rem;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   background-color: white;
+   color: black;
+}
+
+.container{
+   width: 75%;
+   max-width: 1280px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.top-decoration{
+   background-color: rgb(73, 73, 231);
+   height: 0.5rem;
+   opacity: 0.5;
+}
+
+header{
+   background-color: white;
+   padding: 2rem;
+}
+
+.header-title {
+   margin-top: 5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.header-title h1{
+   font-size: 2rem;
+}
+
+
+.header-title span{
+   color: rgb(73, 73, 231);
+   font-weight: lighter;
+}
+
+.header-title p{
+   margin-top: 1.4rem;
+   font-size: 1.4rem;
+   font-weight: lighter;
+}
+
+section{
+   margin-top: 2.5rem;
+   width: 93%;
+   margin: auto;
+}
+
+#my-form{
+   width: 93%;
+   margin: auto;
+   background-color: white;
+   padding: 1.5rem 1.2rem;
+
+}
+
+#my-form h2{
+   margin-bottom: 1.5rem;
+}
+
+#my-form span{
+   color: rgb(73, 73, 231);
+}
+
+#my-form p{
+   font-size: 1.4rem;
+}
+
+input{
+   display: block;
+   padding: 0.6rem 1.4rem;
+   width: 35rem;
+   height: 4rem;
+   margin: 2.7rem 0 0 0;
+}
+
+#submit-btn{
+   background-color: rgb(73, 73, 231);
+   color: white;
+   text-transform: uppercase;
+}
+
+#submit-btn:hover{
+   background-color: rgb(97, 97, 235);
+}
+
+.error-msg{
+   background: orangered;
+   color: #fff;
+   padding: 5px;
+   margin: 5px;
+   width: 35rem;
+}
+
+.success-msg{
+   background: rgb(20, 223, 20);
+   color: #fff;
+   padding: 5px;
+   margin: 5px;
+   width: 35rem;
+}
+
